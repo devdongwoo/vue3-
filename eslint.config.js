@@ -16,6 +16,7 @@ export default [
     rules: {
       'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
       'no-unused-vars': 'off',
+      "vue/no-v-model-argument": "off",
       'prettier/prettier': [
         'error',
         {
